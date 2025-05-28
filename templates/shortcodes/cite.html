@@ -1,0 +1,5 @@
+{% if page.extra.bibtex_key %}
+    <sup><a href="#cite-{{ key }}" id="ref-{{ key }}">[{{ key }}]</a></sup>
+{% else %}
+    <sup>[{{ key }}]</sup>
+{% endif %}
