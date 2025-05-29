@@ -2,7 +2,6 @@
 base_url = "https://jbial.github.io"
 
 # The site title and description
-description = ""
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -49,8 +48,9 @@ read_time = "minute read"
 all_tags = "All tags"
 
 menus = [
-    { name = "About", url = "/about" },
+    { name = "Home", url = "/" },
     { name = "Posts", url = "/posts" },
+    { name = "Research", url = "/research" },
 ]
 
 # config social icon info in the footer

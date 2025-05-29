@@ -2,7 +2,6 @@
 title = "How PINNs got NeRFed"
 date = "2025-05-27"
 bibtex_key = true
-draft = true
 
 [taxonomies]
 tags = ["scientific-machine-learning", "computer-vision"]

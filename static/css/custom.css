@@ -1,3 +1,8 @@
+h1.title {
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
 a.ref-link {
     font-size: 1rem;
     text-decoration: none;
