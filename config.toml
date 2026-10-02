@@ -49,8 +49,8 @@ all_tags = "All tags"
 
 menus = [
     { name = "Home", url = "/" },
-    { name = "Posts", url = "/posts" },
     { name = "Research", url = "/research" },
+    { name = "Posts", url = "/posts" },
 ]
 
 # config social icon info in the footer
@@ -63,5 +63,15 @@ url = "https://github.com/jbial"
 icon = "twitter"
 name = "Twitter"
 url = "https://x.com/bialjail"
+
+[[extra.social]]
+icon = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/jblai"
+
+[[extra.social]]
+icon = "scholar"
+name = "Google Scholar"
+url = "https://scholar.google.com/citations?user=YQVoOjgAAAAJ&hl=en"
 
 katex_enable = true

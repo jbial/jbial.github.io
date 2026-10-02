@@ -1,6 +1,22 @@
+:root {
+    --darkMaincolor: rgb(232, 0, 0);
+}
+
 h1.title {
     border-bottom: none !important;
     text-decoration: none !important;
+}
+
+.soc svg {
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+
+.soc-img {
+    width: 15px;
+    height: 15px;
+    display: block;
 }
 
 a.ref-link {
