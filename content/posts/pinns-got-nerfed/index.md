@@ -1,6 +1,7 @@
 +++
 title = "How PINNs got NeRFed"
 date = "2025-05-27"
+draft = true
 bibtex_key = true
 
 [taxonomies]
