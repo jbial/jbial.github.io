@@ -12,13 +12,13 @@ h1.title {
 .research-item {
     display: flex;
     gap: 1.5rem;
-    align-items: stretch;
-    height: 150px;
+    align-items: flex-start;
 }
 
 .paper-thumbnail {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
     object-fit: cover;
     border: 1px solid var(--bordercl);
 }
@@ -28,12 +28,24 @@ h1.title {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+    min-width: 0;
+    min-height: 220px;
 }
 
 .paper-info h3 {
     margin: 0 0 0.2rem 0;
     font-size: 1.25rem;
     font-weight: bold;
+}
+
+.paper-authors {
+    font-size: 0.9rem;
+    margin: 0 0 0.2rem 0;
+}
+
+.paper-authors strong {
+    font-weight: 700;
+    -webkit-text-stroke: 0.35px currentColor;
 }
 
 .paper-venue {
